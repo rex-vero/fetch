@@ -1,0 +1,64 @@
+body {
+  background-color: #f3f3f3;
+}
+body .container-fluid {
+  box-shadow: 0 0 10px black;
+}
+body .container-fluid .input {
+  border: 1px solid black;
+  padding: 5px 1px 5px 10px;
+}
+body .container-fluid .btn-color {
+  border: 1px solid #076b07;
+  background-color: white;
+  outline: none;
+  width: 40%;
+  color: #076b07;
+}
+body .container-fluid .btn-color:hover {
+  transition: 0.5s;
+  background-color: #076b07;
+  color: white;
+}
+
+.hover {
+  color: rgb(2, 54, 2);
+}
+.hover:hover {
+  transition: 0.5s;
+  transform: scale(1.07);
+  color: #03026d;
+}
+
+@media only screen and (max-width: 990px) {
+  .hover {
+    font-size: 8px;
+  }
+  .btn-color {
+    font-size: 15px;
+    padding: 10px;
+  }
+}
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+::-webkit-scrollbar {
+  width: 9px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 30px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/*# sourceMappingURL=style.css.map */
