@@ -1,5 +1,6 @@
 const btn = document.getElementById('btn');
 btn.addEventListener('click', () => {
+    table.innerHTML=' ';
     fetch('https://jsonplaceholder.typicode.com/users').then(res => { return res.json() }).then(data => {
         const table = document.getElementById('table');
         const body = document.createElement('tbody');
